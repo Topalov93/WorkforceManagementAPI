@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.Web", "WorkforceManagementAPI.Web\WorkforceManagementAPI.Web.csproj", "{4FC90DCD-90F7-4196-9D38-7446999B98DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8C96D6D-609C-45E0-A439-602F72ED0F25} = {D8C96D6D-609C-45E0-A439-602F72ED0F25}
+		{4F93EB8B-26B9-42ED-A457-55F21BD8774F} = {4F93EB8B-26B9-42ED-A457-55F21BD8774F}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.BLL", "WorkforceManagementAPI.BLL\WorkforceManagementAPI.BLL.csproj", "{D8C96D6D-609C-45E0-A439-602F72ED0F25}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5B57B45-F9A8-4763-945A-D42E7C632B7D} = {C5B57B45-F9A8-4763-945A-D42E7C632B7D}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.DAL", "WorkforceManagementAPI.DAL\WorkforceManagementAPI.DAL.csproj", "{C5B57B45-F9A8-4763-945A-D42E7C632B7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.Models", "WorkforceManagementAPI.Models\WorkforceManagementAPI.Models.csproj", "{4F93EB8B-26B9-42ED-A457-55F21BD8774F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{9B5CA895-96C8-4FDB-8B26-8728CFE7A0E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.BLL.Tests", "WorkforceManagementAPI.BLL.Tests\WorkforceManagementAPI.BLL.Tests.csproj", "{757F32B9-A966-4C35-B3BD-C836E3A7754C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkforceManagementAPI.Common", "Common\WorkforceManagementAPI.Common.csproj", "{7269B68C-4BCA-4D2B-9533-C2CD1123C5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkforceManagementAPI.Web.Tests", "WorkforceManagementAPI.Web.Tests\WorkforceManagementAPI.Web.Tests.csproj", "{B1316D1A-72DD-4016-BF1C-4A24AD9D8390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FC90DCD-90F7-4196-9D38-7446999B98DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC90DCD-90F7-4196-9D38-7446999B98DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC90DCD-90F7-4196-9D38-7446999B98DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC90DCD-90F7-4196-9D38-7446999B98DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C96D6D-609C-45E0-A439-602F72ED0F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C96D6D-609C-45E0-A439-602F72ED0F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C96D6D-609C-45E0-A439-602F72ED0F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C96D6D-609C-45E0-A439-602F72ED0F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B57B45-F9A8-4763-945A-D42E7C632B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B57B45-F9A8-4763-945A-D42E7C632B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B57B45-F9A8-4763-945A-D42E7C632B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B57B45-F9A8-4763-945A-D42E7C632B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F93EB8B-26B9-42ED-A457-55F21BD8774F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F93EB8B-26B9-42ED-A457-55F21BD8774F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F93EB8B-26B9-42ED-A457-55F21BD8774F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F93EB8B-26B9-42ED-A457-55F21BD8774F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757F32B9-A966-4C35-B3BD-C836E3A7754C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757F32B9-A966-4C35-B3BD-C836E3A7754C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757F32B9-A966-4C35-B3BD-C836E3A7754C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757F32B9-A966-4C35-B3BD-C836E3A7754C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7269B68C-4BCA-4D2B-9533-C2CD1123C5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7269B68C-4BCA-4D2B-9533-C2CD1123C5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7269B68C-4BCA-4D2B-9533-C2CD1123C5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7269B68C-4BCA-4D2B-9533-C2CD1123C5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1316D1A-72DD-4016-BF1C-4A24AD9D8390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1316D1A-72DD-4016-BF1C-4A24AD9D8390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1316D1A-72DD-4016-BF1C-4A24AD9D8390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1316D1A-72DD-4016-BF1C-4A24AD9D8390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{757F32B9-A966-4C35-B3BD-C836E3A7754C} = {9B5CA895-96C8-4FDB-8B26-8728CFE7A0E3}
+		{B1316D1A-72DD-4016-BF1C-4A24AD9D8390} = {9B5CA895-96C8-4FDB-8B26-8728CFE7A0E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9684015C-64B4-4455-850E-F34D4DE4C22F}
+	EndGlobalSection
+EndGlobal
